@@ -14,7 +14,7 @@ Denoising autoencoders create a corrupted copy of the input by introducing some 
 
 ![Screenshot (480)](https://user-images.githubusercontent.com/75243072/201516542-e8f16568-e6df-4fc8-a8ef-bde98d427ebb.png)
 
-## DESIGN STEPS
+## <br><br><br><br><br><br>DESIGN STEPS
 
 ### Step 1:
 Import the necessary libraries and dataset.
@@ -112,12 +112,10 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
-
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![Screenshot (478)](https://user-images.githubusercontent.com/75243072/201514819-03a8715a-e522-4e53-b5c7-10323317e9a0.png)
-
 
 ### Original vs Noisy Vs Reconstructed Image
 ![Screenshot (475)](https://user-images.githubusercontent.com/75243072/201514811-58ad766e-00a5-4996-bb02-6a3eb8e13a00.png)
