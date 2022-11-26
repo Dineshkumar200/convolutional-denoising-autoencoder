@@ -1,20 +1,24 @@
-# Convolutional Autoencoder for Image Denoising
+### EX NO: 07
 
+### DATE: 14/11/2022
+
+
+# </br><p align = "center"> Convolutional Autoencoder for Image Denoising </p> 
 ## AIM
 
 To develop a convolutional autoencoder for image denoising application.
 
-## Problem Statement and Dataset
+## </br></br>Problem Statement and Dataset
 
 Denoising autoencoders create a corrupted copy of the input by introducing some noise.These autoencoders take a partially corrupted input while training to recover the original undistorted input.The model learns a vector field for mapping the input data towards a lower dimensional manifold which describes the natural data to cancel out the added noise.In denoising autoencoders, we try to minimize the reconstruction error term.It tries to reconstruct the output from a corrupted or noisy input image.The dataset which is used is mnist dataset.
 
 ![image](https://user-images.githubusercontent.com/75235813/201460551-99b57c03-8dd9-4ec2-9d7c-1772acf980c4.png)
 
-## Convolution Autoencoder Network Model
+## </br></br></br></br></br></br></br>Convolution Autoencoder Network Model
 
 ![Screenshot (480)](https://user-images.githubusercontent.com/75243072/201516542-e8f16568-e6df-4fc8-a8ef-bde98d427ebb.png)
 
-## <br><br><br><br><br><br>DESIGN STEPS
+## <br>DESIGN STEPS
 
 ### Step 1:
 Import the necessary libraries and dataset.
@@ -112,16 +116,16 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
-## OUTPUT
+## </br></br></br></br></br></br></br>OUTPUT
 
-### Training Loss, Validation Loss Vs Iteration Plot
+### </br>Training Loss, Validation Loss Vs Iteration Plot
 ![Screenshot (478)](https://user-images.githubusercontent.com/75243072/201514819-03a8715a-e522-4e53-b5c7-10323317e9a0.png)
 
-### Original vs Noisy Vs Reconstructed Image
+### </br></br>Original vs Noisy Vs Reconstructed Image
 ![Screenshot (475)](https://user-images.githubusercontent.com/75243072/201514811-58ad766e-00a5-4996-bb02-6a3eb8e13a00.png)
 
 
 
-## RESULT
+## </br></br>RESULT
 Thus, a Convolutional Auto Encoder for Denoising was sucessfully implemented.
 
